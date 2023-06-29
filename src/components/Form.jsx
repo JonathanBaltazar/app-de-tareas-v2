@@ -20,7 +20,7 @@ function Form({ addTask }) {
         >
             <input
                 type="text"
-                placeholder="Tarea"
+                placeholder="Guarda tu tarea"
                 onChange={(e) => {
                     setTask(e.target.value);
                 }}
